@@ -1,0 +1,83 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIEND | Handcrafted Rebellion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Oswald:wght@300;700&display=swap');
+        body { font-family: 'Courier Prime', monospace; background-color: #000; color: #fff; }
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 2px; }
+        .border-edge { border: 1px solid #333; }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="p-6 flex justify-between items-center border-b border-edge bg-black">
+        <div class="text-3xl font-bold tracking-tighter">FIEND</div>
+        <div class="space-x-8 text-sm">
+            <a href="#gallery" class="hover:text-red-600 transition">GALLERY</a>
+            <a href="#shop" class="hover:text-red-600 transition">SHOP</a>
+            <a href="#about" class="hover:text-red-600 transition">MANIFESTO</a>
+        </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="py-20 px-6 text-center">
+        <img src="https://i.imgur.com/b3KQrQq.png" alt="FIEND LOGO" class="mx-auto max-w-sm mb-8">
+        <p class="text-xl max-w-2xl mx-auto mb-10 opacity-70 italic">PUNK CLOTHING. CHAINMAIL ART. ADAPTIVE ACCESSORIES.</p>
+    </header>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-12 bg-zinc-950">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <img src="https://i.imgur.com/G5v3f6m.png" alt="Fiend Design 1" class="border-edge p-2 hover:opacity-80 transition">
+            <img src="https://i.imgur.com/Yt0cR2p.png" alt="Fiend Design 2" class="border-edge p-2 hover:opacity-80 transition">
+            <img src="https://i.imgur.com/Rs0jZwF.png" alt="Fiend Design 3" class="border-edge p-2 hover:opacity-80 transition">
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section id="shop" class="px-6 py-20 max-w-6xl mx-auto">
+        <h2 class="text-4xl mb-12 border-l-4 border-red-900 pl-4">CURRENT DROPS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="border-edge p-4 group hover:border-red-900 transition">
+                <div class="w-full h-64 bg-zinc-900 mb-4 flex items-center justify-center border border-dashed border-zinc-700">STAINLESS CHOKER</div>
+                <h3 class="text-xl">Stainless Steel Choker</h3>
+                <p class="text-red-700 font-bold">$85.00</p>
+            </div>
+            <div class="border-edge p-4 group hover:border-red-900 transition">
+                <div class="w-full h-64 bg-zinc-900 mb-4 flex items-center justify-center border border-dashed border-zinc-700">DISTRESSED JACKET</div>
+                <h3 class="text-xl">Distressed Patch Jacket</h3>
+                <p class="text-red-700 font-bold">$220.00</p>
+            </div>
+            <div class="border-edge p-4 group hover:border-red-900 transition">
+                <div class="w-full h-64 bg-zinc-900 mb-4 flex items-center justify-center border border-dashed border-zinc-700">LEATHER HARNESS</div>
+                <h3 class="text-xl">Leather Harness</h3>
+                <p class="text-red-700 font-bold">$150.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manifesto Section -->
+    <section id="about" class="bg-zinc-950 py-20 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl mb-8">MANIFESTO</h2>
+            <p class="leading-relaxed opacity-80 mb-6 italic text-lg">
+                FIEND is not for the masses. Every piece is forged by hand, blending the aggressive spirit of punk with the structural precision of chainmail and the raw edge of adaptive leatherwork. We don't chase trends; we build armor for the outsiders.
+            </p>
+            <p class="text-sm uppercase tracking-widest text-zinc-600">Established 2026 // Global Shipping</p>
+        </div>
+    </section>
+
+    <footer class="p-12 text-center border-t border-edge text-zinc-500 text-xs uppercase">
+        &copy; 2026 FIEND APPAREL. KEEP IT LOUD.
+    </footer>
+
+</body>
+</html>
+
+```
